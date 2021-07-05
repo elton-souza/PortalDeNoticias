@@ -1,0 +1,13 @@
+body{
+    background-color: #262626;
+
+    display: grid;
+    grid-template-areas: 
+    "topo"
+    "main";
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto;
+
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}

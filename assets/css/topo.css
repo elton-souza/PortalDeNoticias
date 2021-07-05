@@ -1,0 +1,26 @@
+.topo{
+    grid-area: topo;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-bottom: 3px solid #FF5A19;
+}
+h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    margin-left: 10px;
+}
+.nav-bar li a{
+    font-weight: bold;
+    color: white;
+}
+.nav-bar li a:hover{
+    color: #FF5A19;
+    cursor: pointer;
+}
