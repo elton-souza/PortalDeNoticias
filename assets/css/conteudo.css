@@ -14,9 +14,18 @@
     margin-bottom: 10px;
 }
 .titulo-portal{
-    grid-column: 1/4;
-    grid-row: 1/1;
+    margin-top: 30px;
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.aviso{
+    grid-column: 1/4;
+    text-align: center;
+}
+.aviso a{
+    color: #FF5A19;
+    text-decoration: underline;
 }
 .noticia{
     border:3px;

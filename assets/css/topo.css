@@ -1,4 +1,4 @@
-.topo{
+.topo {
     grid-area: topo;
     display: flex;
     align-items: center;
@@ -6,21 +6,27 @@
 
     border-bottom: 3px solid #FF5A19;
 }
-h1{
+
+.logo {
     font-weight: bold;
     font-size: 23px;
+    color: white;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
 }
-.nav-bar li{
+
+.nav-bar li {
     margin-left: 10px;
 }
-.nav-bar li a{
+
+.nav-bar li a {
     font-weight: bold;
     color: white;
 }
-.nav-bar li a:hover{
+
+.nav-bar li a:hover {
     color: #FF5A19;
     cursor: pointer;
 }

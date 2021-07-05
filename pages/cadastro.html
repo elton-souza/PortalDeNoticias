@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +8,41 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/topo.css">
     <link rel="stylesheet" href="../assets/css/rodape.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <title>Cadastro</title>
 </head>
 <body>
     <header class="topo">
-        <h1 class="logo">LOGO</h1>
+        <a href="../index.html" class="logo">LOGO</a>
         <nav class="nav-bar">
             <li>
                 <a href="../index.html">INÍCIO</a>
             </li> 
-            <li><a href="./pages/cadastro.html">CADASTRAR NOTÍCIA</a></li>
+            <li><a href="../pages/cadastro.html">CADASTRAR NOTÍCIA</a></li>
         </nav>
     </header>
-    <main>
-
+    <!-- ----------------------------------------------------------- -->
+    <main class="cadastro-form" data-main>
+        <h1 class="titulo-page">Cadastro de Notícias</h1>
+        <form class="cadastro">
+            <label for="titulo">Titulo: </label>
+            <input type="text" name="titulo" id="titulo" data-titulo required>
+            <label for="noticia">Notícia: </label>
+            <textarea id="noticia" cols="50" rows="5" data-noticia required></textarea>
+            <label for="fonte">Fonte: </label>
+            <input type="text" id="fonte" data-fonte required placeholder="Somente link">
+            <input type="submit" value="Enviar" class="btn-enviar" data-btn>
+        </form>
+        <!-- <p class="erro">Erro ao cadastrar notícia, tente novamente!</p> -->
     </main>
+    <!-- ----------------------------------------------------------- -->
     <footer class="rodape">
         <p>Desenvolvido por <a href="#">Elton</a></p>
     </footer>
+    <!-- ----------------------------------------------------------- -->
+    <script type="module" src="../assets/js/cadastrar.js"></script>
 </body>
 </html>
