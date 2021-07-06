@@ -24,11 +24,13 @@
     border:none;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 .cadastro textarea{
     font-size: 16px;
     border: none;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .btn-enviar{
     text-align: center;

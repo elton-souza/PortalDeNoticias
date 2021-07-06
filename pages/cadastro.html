@@ -30,10 +30,16 @@
         <form class="cadastro">
             <label for="titulo">Titulo: </label>
             <input type="text" name="titulo" id="titulo" data-titulo required>
+
             <label for="noticia">Notícia: </label>
             <textarea id="noticia" cols="50" rows="5" data-noticia required></textarea>
+
             <label for="fonte">Fonte: </label>
-            <input type="text" id="fonte" data-fonte required placeholder="Somente link">
+            <input type="text" id="fonte" data-fonte required placeholder="Ex: Microsoft">
+
+            <label for="">Link: </label>
+            <input type="text" id="link" data-link required placeholder="Link para noticia completa">
+
             <input type="submit" value="Enviar" class="btn-enviar" data-btn>
         </form>
         <!-- <p class="erro">Erro ao cadastrar notícia, tente novamente!</p> -->

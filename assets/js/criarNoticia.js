@@ -6,6 +6,7 @@ export default function novaNoticia(){
     const titulo = document.querySelector('[data-titulo]').value
     const noticia = document.querySelector('[data-noticia]').value
     const fonte = document.querySelector('[data-fonte]').value
+    const link = document.querySelector('[data-link]').value
 
     if(titulo | noticia | fonte === ""){
         const div = document.querySelector('[data-main]')
@@ -18,7 +19,7 @@ export default function novaNoticia(){
         div.innerHTML += concluido
 
         const dados = {
-            titulo, noticia, fonte
+            titulo, noticia, fonte, link
         }
         const novasNoticias = [...ntc, dados]
         localStorage.setItem('noticias', JSON.stringify(novasNoticias))

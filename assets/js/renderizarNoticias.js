@@ -1,4 +1,4 @@
-export default function render({titulo,noticia,fonte}){
+export default function render({titulo,noticia,fonte,link}){
 
     const div = document.createElement('div')
     div.classList.add('noticia')
@@ -13,7 +13,7 @@ export default function render({titulo,noticia,fonte}){
 
     const fonteNoticia = document.createElement('p')
     fonteNoticia.classList.add('fonte-noticia')
-    fonteNoticia.innerHTML = `Fonte: <a href="${fonte}" class="noticia-link">${fonte}</a>`
+    fonteNoticia.innerHTML = `Fonte: <a href="${link}" class="noticia-link">${fonte}</a>`
 
     div.appendChild(tituloNoticia)
     div.appendChild(novaNoticia)
