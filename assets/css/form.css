@@ -1,4 +1,4 @@
-.cadastro-form{
+.cadastro{
     grid-area: main;
     width: 960px;
     margin: 30px auto;
@@ -7,26 +7,25 @@
     text-align: center;
     margin-bottom: 20px;
 }
-.cadastro{
+.cadastro-form{
     background-color: #FF5A19;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 700px;
     margin: 0 auto;
 }
-.cadastro label{
+.cadastro-form label{
     color: black;
     font-weight: bold;
 }
-.cadastro input{
+.cadastro-form input{
     border:none;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
 }
-.cadastro textarea{
+.cadastro-form textarea{
     font-size: 16px;
     border: none;
     border-radius: 10px;
@@ -55,4 +54,24 @@
     text-align: center;
     margin-top: 40px;
     color: green;
+}
+@media screen and (max-width:499px){
+    .cadastro{
+        width: 300px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    .cadastro{
+        width: 400px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:767px){
+    .cadastro{
+        width: 500px;
+    }
+}
+@media screen and (min-width:768px){
+    .cadastro{
+        max-width: 700px;
+    }
 }

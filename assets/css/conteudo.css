@@ -8,7 +8,7 @@
     grid-gap: 10px;
 
     max-width: 1024px;
-    margin: 30px auto 20px auto;
+    margin: 30px auto 30px auto;
 }
 .conteudo h1{
     margin-bottom: 10px;
@@ -57,13 +57,21 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:599px) {
     .conteudo{
-        grid-template-columns: auto;
+        width: 280px;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:600px) and (max-width:767px) {
+    .conteudo{
+        width: 550px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     .conteudo{
+        width: 700px;
         grid-template-columns: 1fr 1fr;
     }
 }
