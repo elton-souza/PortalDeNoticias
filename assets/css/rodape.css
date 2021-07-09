@@ -6,12 +6,11 @@
     justify-content: center;
     width: 100%;
     height: 50px;
-    top:100%;
-    margin-top: 50px;
+
+    position: fixed;
+    bottom: 0;
 }
 .rodape a{
     color:#FF5A19 ;
     border-bottom: none;
 }
-
-/* ok */
