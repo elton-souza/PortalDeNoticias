@@ -33,3 +33,68 @@
 .ativo{
     color: #FF5A19;
 }
+/* .nav-mobile{
+    display: none;
+}
+.menu-hamb{
+    display: none;
+} */
+@media screen and (max-width:425px) {
+    /* .topo{
+        padding: 15px;
+        justify-content: space-between;
+    }
+    .menu-hamb{
+        display: block;
+    }
+    .nav-bar{
+        display: none;
+    } */
+    /* .btn-hamb{
+        width: 35px;
+        height: 35px;
+        position:absolute;
+        top: 15px;
+        right: 12px;
+        z-index: 1;
+        opacity: 0;
+    }
+    span{
+        display: block;
+        width:35px;
+        height:6px;
+        background-color: #FF5A19;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+    .nav-mobile{
+        position: fixed;
+        width: 100%;
+        background-color: #FF5A19;
+        top: 0;
+        left: 0;
+    }
+    .nav-mobile li{
+        text-align: center;
+    }
+    .btn-hamb:checked ~ .nav-mobile{
+        display: block;
+    }
+    .btn-hamb:checked ~ .hamb span:nth-child(2){
+        background-color: black;
+        transition: 1s;
+        transform: translateY(16px) rotate(45deg);
+    }
+    .btn-hamb:checked ~ .hamb span:nth-child(3){
+        background-color: black;
+        transition: 1s;
+        transform: translateX(0) translateY(5px) rotate(-45deg);
+    
+    }
+    .btn-hamb:checked ~ span:nth-child(4){
+        opacity: 0;
+    }
+    .btn-hamb:hover{
+        cursor: pointer;
+    } */
+}
