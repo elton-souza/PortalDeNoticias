@@ -36,7 +36,7 @@
 .btn-hamb,.hamb {
     display: none;
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:550px) {
     .topo{
         padding: 15px;
         justify-content: space-between;
